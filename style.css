@@ -1,11 +1,7 @@
-.grid:hover, .paint {
-    background-color: yellow;
-}
-
 #container {
     width: 400px; height: 400px;
     margin: 50px auto;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5; 
     box-shadow: 0px 0px 12px -3px rgba(109, 109, 109, 0.45);
-    display: grid; grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+    display: grid;
 }
